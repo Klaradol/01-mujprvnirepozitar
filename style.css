@@ -1,0 +1,32 @@
+.navbar {
+    background-color: rgba(88, 82, 82, 0.679);
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body{
+    margin:color red;
+}
+.navbar a{
+    color: khaki;
+    text-decoration: none;
+   font-size: x-large;
+}
+.navbar a:hover{
+    color: lawngreen;
+}
+.mainPageContairne{
+    display: flex;
+    justify-content:space-around ;
+    color: black;
+}
+.headMainPage{
+    margin-top: 180px;
+}
+.nasesluzby{
+background-color: black;
+color: aliceblue;
+padding: 40px;
+
+}
