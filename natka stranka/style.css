@@ -1,0 +1,12 @@
+.products{
+    display: flex;
+    justify-content: space-evenly;
+   flex-direction: row;
+   margin-top: 20px;
+ }
+ .leftMenu {
+    display: flex;
+    flex-direction: column;
+    padding: 50px ;
+
+ }
