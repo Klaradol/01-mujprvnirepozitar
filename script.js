@@ -1,33 +1,27 @@
-function myFunction(){
 
-    var variable1; // NEbudeme používat !
-    let variable2;//Budeme používat!
-   const variable3=3;// nemohu poté zmenit
-   variable4= "ahoj"// STRING
-   variable5= 5 //NUMBER/INT/INTEGER
-   variable6= true//BOOLEAN
+function pythagorovavěta(){
 
-   const userFirstName=document.getElementById("firstName").value
-   console.log(userFirstName)
-
-
-   const userLastName=document.getElementById("lastName").value
-
-   const fullName= userFirstName + " " + userLastName
-
-   document.getElementById("fullName").value=userFullNAme
-} 
-function addition(){
     const inputFirstNumber = parseInt(document.getElementById("firstNumber").value)
     const inputSecondNumber = parseInt(document.getElementById("secondNumber").value)
 
+    const additionResult = (inputFirstNumber * inputFirstNumber + inputSecondNumber * inputSecondNumber)
+        
+    document.getElementById("result").value = (Math.sqrt(additionResult))
+    
+   document.getElementById("c").value = c.toFixed(1);
+ }
 
-    document.getElementById("fullName").value=additionResult
-}
-function subtraction(){
-    const inputFirstNumber = parseInt(document.getElementById("firstNumber").value)
-    const inputSecondNumber = parseInt(document.getElementById("secondNumber").value)
+ function itFunction(){
 
-    document.getElementById("fullName").value=additionResult
+    parseInt(document.getElementById("inputName"))
 
-}
+     if (inputName < 0 ) ( 
+        console.log)()
+      } else if (time < 20) {
+        greeting = "Good day";
+      } else {
+        greeting = "Good evening";
+      }
+ }
+
+
